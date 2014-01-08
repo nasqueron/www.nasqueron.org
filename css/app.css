@@ -17,6 +17,8 @@
 
     :: Main styles
 	:: Backgrounds
+    :: Homepage content
+
 */
 
 /*  -------------------------------------------------------------
@@ -86,4 +88,43 @@
         background-attachment: fixed;
         background-repeat: no-repeat;
     }
+}
+
+/*  -------------------------------------------------------------
+    Homepage content
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+@media screen and (max-width: 834px) {
+	.homepanel {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 835px) {
+	.homepanel {
+		background-color: rgba(255, 255, 255, 0.38);
+		color: white;
+		width: 746px;
+		position: fixed;
+		bottom: 88px;
+		left: 88px;
+		padding: 1em 1em;
+	}
+
+	.homepanel h1 {
+		font-size: 30pt;
+		color: white;
+	}
+
+	.homepanel h2 {
+		font-size: 20pt;
+		color: white;
+	}
+
+	.homepanel p {
+		font-family: "Open Sans", "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+		font-size: 16pt;
+		font-weight: 300;
+		color: white;
+	}
 }
