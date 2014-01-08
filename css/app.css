@@ -96,7 +96,17 @@
 
 @media screen and (max-width: 834px) {
 	.homepanel {
-		display: none;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.38);
+		position: fixed;
+		bottom: 0;
+		color: white;
+		padding: 1em 1em;
+		text-align: center
+	}
+
+	.homepanel h1, .homepanel h2 {
+		color: white;
 	}
 }
 
