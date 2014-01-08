@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/*  -------------------------------------------------------------
+    Navigate to Nasqueron
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Author:         Dereckson
+    Tags:           Foundation, black, cold, stars, aurora
+    Filename:       app.css
+    Version:        1.0
+    Created:        2014-01-18
+    Licence:        Creative Commons BY 3.0
+    -------------------------------------------------------------    */
+
+/*  -------------------------------------------------------------
+    Table of contents
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    :: Main styles
+	:: Backgrounds
+*/
+
+/*  -------------------------------------------------------------
+    Main styles
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+/*  -------------------------------------------------------------
+    Background
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+@media screen and (max-width: 400px) {
+    body {
+        background-color: black;
+        background-image: url(/images/bg/DeepSpace-400.jpg), url(/images/bg/DeepSpace-400-low.jpg);
+        background-position: bottom left;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 720px) {
+    body {
+        background-color: black;
+        background-image: url(/images/bg/DeepSpace-720.jpg), url(/images/bg/DeepSpace-720-low.jpg);
+        background-position: bottom left;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+    body {
+        background-color: black;
+        background-image: url(/images/bg/DeepSpace-1280.jpg), url(/images/bg/DeepSpace-1280-low.jpg);
+        background-position: bottom left;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+    body {
+        background-color: black;
+        background-image: url(/images/bg/DeepSpace-1440.jpg), url(/images/bg/DeepSpace-1440-low.jpg);
+        background-position: bottom left;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    body {
+        background-color: black;
+        background-image: url(/images/bg/DeepSpace-1920.jpg), url(/images/bg/DeepSpace-1920-low.jpg);
+        background-position: bottom left;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    body {
+        background-color: black;
+        background-image: url(/images/bg/DeepSpace-2880.jpg), url(/images/bg/DeepSpace-2880-low.jpg);
+        background-position: bottom left;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    background-color: black;
+    background-image: url(/images/bg/DeepSpace-400.jpg), url(/images/bg/DeepSpace-400-low.jpg);
+    background-position: bottom left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+@media screen and (min-width: 401px) and (max-width: 720px) {
+    background-color: black;
+    background-image: url(/images/bg/DeepSpace-720.jpg), url(/images/bg/DeepSpace-720-low.jpg);
+    background-position: bottom left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+    background-color: black;
+    background-image: url(/images/bg/DeepSpace-1280.jpg), url(/images/bg/DeepSpace-1280-low.jpg);
+    background-position: bottom left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+    background-color: black;
+    background-image: url(/images/bg/DeepSpace-1440.jpg), url(/images/bg/DeepSpace-1440-low.jpg);
+    background-position: bottom left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    background-color: black;
+    background-image: url(/images/bg/DeepSpace-1920.jpg), url(/images/bg/DeepSpace-1920-low.jpg);
+    background-position: bottom left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+@media screen and (min-width: 1921px) {
+    background-color: black;
+    background-image: url(/images/bg/DeepSpace-2880.jpg), url(/images/bg/DeepSpace-2880-low.jpg);
+    background-position: bottom left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+}
