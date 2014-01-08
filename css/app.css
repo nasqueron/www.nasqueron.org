@@ -16,7 +16,7 @@
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
     :: Main styles
-	:: Backgrounds
+    :: Backgrounds
     :: Homepage content
 
 */
@@ -36,7 +36,7 @@
         background-position: bottom left;
         background-attachment: fixed;
         background-repeat: no-repeat;
-		background-size: cover;
+        background-size: cover;
     }
 }
 
