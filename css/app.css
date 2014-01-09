@@ -7,7 +7,8 @@
     Tags:           Foundation, black, cold, stars, aurora
     Filename:       app.css
     Version:        1.0
-    Created:        2014-01-18
+    Created:        2014-01-08
+    Modified:       2014-01-09
     Licence:        Creative Commons BY 3.0
     -------------------------------------------------------------    */
 
@@ -18,6 +19,7 @@
     :: Main styles
     :: Backgrounds
     :: Homepage content
+    :: Smartbar
 
 */
 
@@ -30,7 +32,7 @@
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
 
 @media screen and (max-width: 400px) {
-    body {
+    body.deepspace {
         background-color: black;
         background-image: url(/images/bg/DeepSpace-400.jpg), url(/images/bg/DeepSpace-400-low.jpg);
         background-position: bottom left;
@@ -41,7 +43,7 @@
 }
 
 @media screen and (min-width: 401px) and (max-width: 720px) {
-    body {
+    body.deepspace {
         background-color: black;
         background-image: url(/images/bg/DeepSpace-720.jpg), url(/images/bg/DeepSpace-720-low.jpg);
         background-position: bottom left;
@@ -51,7 +53,7 @@
 }
 
 @media screen and (min-width: 721px) and (max-width: 1280px) {
-    body {
+    body.deepspace {
         background-color: black;
         background-image: url(/images/bg/DeepSpace-1280.jpg), url(/images/bg/DeepSpace-1280-low.jpg);
         background-position: bottom left;
@@ -61,7 +63,7 @@
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1440px) {
-    body {
+    body.deepspace {
         background-color: black;
         background-image: url(/images/bg/DeepSpace-1440.jpg), url(/images/bg/DeepSpace-1440-low.jpg);
         background-position: bottom left;
@@ -71,7 +73,7 @@
 }
 
 @media screen and (min-width: 1441px) and (max-width: 1920px) {
-    body {
+    body.deepspace {
         background-color: black;
         background-image: url(/images/bg/DeepSpace-1920.jpg), url(/images/bg/DeepSpace-1920-low.jpg);
         background-position: bottom left;
@@ -81,7 +83,7 @@
 }
 
 @media screen and (min-width: 1921px) {
-    body {
+    body.deepspace {
         background-color: black;
         background-image: url(/images/bg/DeepSpace-2880.jpg), url(/images/bg/DeepSpace-2880-low.jpg);
         background-position: bottom left;
@@ -90,51 +92,192 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    body.auroraborealis {
+        background-image: url("/images/bg/AuroraBorealis-400.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 720px) {
+    body.auroraborealis {
+        background-image: url("/images/bg/AuroraBorealis-720.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+    body.auroraborealis {
+        background-image: url("/images/bg/AuroraBorealis-1280.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+    body.auroraborealis {
+        background-image: url("/images/bg/AuroraBorealis-1440.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    body.auroraborealis {
+        background-image: url("/images/bg/AuroraBorealis-1920.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    body.auroraborealis {
+        background-image: url("/images/bg/AuroraBorealis-2880.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+}
+
 /*  -------------------------------------------------------------
     Homepage content
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
 
 @media screen and (max-width: 834px) {
-	.homepanel {
-		width: 100%;
-		background-color: rgba(0, 0, 0, 0.38);
-		position: fixed;
-		bottom: 0;
-		color: white;
-		padding: 1em 1em;
-		text-align: center
-	}
+    .homepanel {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.38);
+        position: fixed;
+        bottom: 0;
+        color: white;
+        padding: 1em 1em;
+        text-align: center
+    }
 
-	.homepanel h1, .homepanel h2 {
-		color: white;
-	}
+    .homepanel h1, .homepanel h2 {
+        color: white;
+    }
 }
 
 @media screen and (min-width: 835px) {
-	.homepanel {
-		background-color: rgba(255, 255, 255, 0.38);
-		color: white;
-		width: 746px;
-		position: fixed;
-		bottom: 88px;
-		left: 88px;
-		padding: 1em 1em;
-	}
+    .homepanel {
+        background-color: rgba(255, 255, 255, 0.38);
+        color: white;
+        width: 746px;
+        position: fixed;
+        bottom: 88px;
+        left: 88px;
+        padding: 1em 1em;
+    }
 
-	.homepanel h1 {
-		font-size: 30pt;
-		color: white;
-	}
+    .homepanel h1 {
+        font-size: 30pt;
+        color: white;
+    }
 
-	.homepanel h2 {
-		font-size: 20pt;
-		color: white;
-	}
+    .homepanel h2 {
+        font-size: 20pt;
+        color: white;
+    }
 
-	.homepanel p {
-		font-family: "Open Sans", "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-		font-size: 16pt;
-		font-weight: 300;
-		color: white;
-	}
+    .homepanel p {
+        font-family: "Open Sans", "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+        font-size: 16pt;
+        font-weight: 300;
+        color: white;
+    }
+}
+
+/*  -------------------------------------------------------------
+    Smartbar
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+@media screen and (max-width: 720px) {
+    #logo {
+        margin: 5% auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    #line {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 721px) {
+    #logo {
+        display: none;
+    }
+
+    #line {
+        height: 117px;
+        background-image: url(/images/logo-white.png);
+        background-repeat: no-repeat;
+        background-position: top left;
+        position: fixed;
+        left: 0;
+        width: 100%;
+    }
+
+    #smartbar {
+        background-color: rgba(0, 0, 0, 0.28);
+        height: 117px;
+        margin-left: 133px;
+    }
+
+    #smartbar input {
+        height: 53px;
+        margin: 0 0 0 0;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+    #line {
+        bottom: 76px;
+    }
+
+    #smartbar {
+        padding: 30px 2em 0 153px;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+    #line {
+        bottom: 154px;
+    }
+
+    #smartbar {
+        padding: 30px 2em 0 394px;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1980px) {
+    #line {
+        bottom: 250px;
+    }
+
+    #smartbar {
+        padding: 30px 2em 0 43px;
+    }
+}
+
+@media screen and (min-width: 1981px) {
+    #line {
+        bottom: 219px;
+    }
+
+    #smartbar {
+        padding: 30px 2em 0 43px;
+    }
 }
