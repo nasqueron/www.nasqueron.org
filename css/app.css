@@ -32,6 +32,12 @@
     Background
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
 
+@media screen and (orientation: portrait) {
+    body.deepspace, body.auroraborealis {
+        background-size: cover;
+    }
+}
+
 @media screen and (max-width: 400px) {
     body.deepspace {
         background-color: black;
@@ -39,7 +45,6 @@
         background-position: bottom left;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: cover;
     }
 }
 
@@ -99,7 +104,6 @@
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: bottom left;
-        background-size: cover;
     }
 }
 
@@ -280,6 +284,12 @@
 
     #smartbar {
         padding: 30px 2em 0 43px;
+    }
+}
+
+@media screen and (max-height: 192px) {
+    #line {
+        bottom: 0 !important;
     }
 }
 
