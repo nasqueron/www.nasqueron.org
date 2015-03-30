@@ -61,6 +61,10 @@ Mousetrap.bind(
         'v a s r e l p o r', //we should provide here a nice gate effect
         'k a l o r t p o r',
         'o r t p o r', //spontaneously used in a chat by a former UO player, without the kal
+        
+        //Who are you?
+        'f r i e n d',
+        'd w e l l e r',
     ],
     function() {
         document.location.href = '/go.html';
