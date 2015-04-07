@@ -3,7 +3,6 @@
     background-image: url(/images/bg/DeepSpace-400.jpg), url(/images/bg/DeepSpace-400-low.jpg);
     background-position: bottom left;
     background-attachment: fixed;
-    
 }
 
 @media screen and (min-width: 401px) and (max-width: 720px) {
@@ -11,7 +10,6 @@
     background-image: url(/images/bg/DeepSpace-720.jpg), url(/images/bg/DeepSpace-720-low.jpg);
     background-position: bottom left;
     background-attachment: fixed;
-    
 }
 
 @media screen and (min-width: 721px) and (max-width: 1280px) {
@@ -19,7 +17,6 @@
     background-image: url(/images/bg/DeepSpace-1280.jpg), url(/images/bg/DeepSpace-1280-low.jpg);
     background-position: bottom left;
     background-attachment: fixed;
-    
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1440px) {
@@ -27,7 +24,6 @@
     background-image: url(/images/bg/DeepSpace-1440.jpg), url(/images/bg/DeepSpace-1440-low.jpg);
     background-position: bottom left;
     background-attachment: fixed;
-    
 }
 
 @media screen and (min-width: 1441px) and (max-width: 1920px) {
@@ -35,7 +31,6 @@
     background-image: url(/images/bg/DeepSpace-1920.jpg), url(/images/bg/DeepSpace-1920-low.jpg);
     background-position: bottom left;
     background-attachment: fixed;
-    
 }
 
 @media screen and (min-width: 1921px) {
@@ -43,5 +38,4 @@
     background-image: url(/images/bg/DeepSpace-2880.jpg), url(/images/bg/DeepSpace-2880-low.jpg);
     background-position: bottom left;
     background-attachment: fixed;
-    
 }
