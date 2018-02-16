@@ -25,7 +25,7 @@
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
 
 require(["dojo/request/xhr"], function (xhr) {
-    xhr("sites.json",
+    xhr("https://api.nasqueron.org/sites.json",
         {
             handleAs: "json"
         }
