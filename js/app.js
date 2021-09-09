@@ -16,7 +16,7 @@
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
     :: Keyboard events
-    :: Keyboard shorcuts help
+    :: Keyboard shortcuts help
 
  */
 
@@ -32,9 +32,9 @@ require(["dojo/request/xhr"], function (xhr) {
     ).then(
         function (sites) {
             for (var i = 0 ; i < sites.length ; i++) {
-                //Press g, <site.shorcutKey> to directly go to this site.
+                //Press g, <site.shortcutKey> to directly go to this site.
                 (function(site) {
-                    Mousetrap.bind('g ' + site.shorcutKey, function() {
+                    Mousetrap.bind('g ' + site.shortcutKey, function() {
                         var url = "//" + site.id + ".nasqueron.org";
                         document.location.href = url;
                     });
@@ -48,7 +48,7 @@ require(["dojo/request/xhr"], function (xhr) {
 });
 
 /*  -------------------------------------------------------------
-    Keyboard shorcuts help
+    Keyboard shortcuts help
 
     Based on QuestionMark.js by Louis Lazaris
     http://impressivewebs.github.io/QuestionMark.js/
@@ -72,12 +72,12 @@ require([
     var resizeHelpWindowTimeout = null;
 
     /**
-     * Initializes keyboard shorcuts help
+     * Initializes keyboard shortcuts help
      *
      * @param string content The HTML content of the help window
      */
-    function initializeKeyboardShorcuts (content) {
-        //Places keyboard shorcuts element in DOM
+    function initializeKeyboardShortcuts (content) {
+        //Places keyboard shortcuts element in DOM
         domConstruct.place(content, dojo.body(), "last");
         resizeHelpWindow();
 
@@ -174,9 +174,9 @@ require([
 
     //Reads help file and initializes help
     request("question.mark.html").then(
-        initializeKeyboardShorcuts,
+        initializeKeyboardShortcuts,
         function (err) {
-            console.log("Error fetching Keyboard shorcuts help: ", err);
+            console.log("Error fetching Keyboard shortcuts help: ", err);
         }
     );
 });
