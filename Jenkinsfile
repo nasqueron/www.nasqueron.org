@@ -2,16 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
-            steps {
-                git url: 'https://devcentral.nasqueron.org/source/www.git', branch: 'main'
-            }
-        }
         stage('Build') {
             steps {
-                archiveArtifacts artifacts: '**', onlyIfSuccessful: true 
+                archiveArtifacts artifacts: '**', excludes: '.arc*, Jenkinsfile', onlyIfSuccessful: true
             }
         }
+
         stage('Publish') {
             steps {
                 echo 'Deploying....'
