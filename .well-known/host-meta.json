@@ -1,0 +1,1 @@
+{"links":[{"rel":"urn:xmpp:alt-connections:xbosh","href":"https:\/\/xmpp.nasqueron.org:7443\/http-bind\/"},{"rel":"urn:xmpp:alt-connections:websocket","href":"wss:\/\/xmpp.nasqueron.org:7443\/ws"}]}
